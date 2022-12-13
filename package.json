@@ -1,0 +1,32 @@
+{
+  "name": "react-hotel-booking",
+  "version": "1.0.0",
+  "description": "Node React Hotel Booking Application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infysumanta/node-react-hotel-booking.git"
+  },
+  "keywords": [],
+  "author": "Sumanta Kabiraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/infysumanta/node-react-hotel-booking/issues"
+  },
+  "homepage": "https://github.com/infysumanta/node-react-hotel-booking#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.8.0"
+  }
+}
